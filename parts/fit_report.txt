@@ -1,0 +1,30 @@
+  base_frame_L vs keyboard               OK (no overlap)
+  base_frame_R vs keyboard               OK (no overlap)
+  pi_module vs keyboard                  OK (no overlap)
+  battery_module vs keyboard             OK (no overlap)
+  lid_frame_L vs keyboard                OK (no overlap)
+  lid_frame_R vs keyboard                OK (no overlap)
+  base_frame_L vs battery                OK (no overlap)
+  base_frame_R vs battery                OK (no overlap)
+  pi_module vs battery                   OK (no overlap)
+  battery_module vs battery              OVERLAP 54.4 mm3
+  lid_frame_L vs battery                 OK (no overlap)
+  lid_frame_R vs battery                 OK (no overlap)
+  base_frame_L vs case bosses            OK (no overlap)
+  base_frame_R vs case bosses            OK (no overlap)
+  pi_module vs case bosses               OK (no overlap)
+  battery_module vs case bosses          OK (no overlap)
+  lid_frame_L vs case bosses             OK (no overlap)
+  lid_frame_R vs case bosses             OK (no overlap)
+  pi box vs battery                      OK (no overlap)
+  keyboard vs case bosses                OK (no overlap)
+
+  stack (world Z, floor = 0):
+    battery top              49.5
+    keyboard floor           50.0
+    keyboard top             70.3
+    lid frame lowest part    74.6   (lip / arms over the keyboard)
+    -> keyboard clearance     4.3 mm
+    screen front / back      75.8 / 82.6
+    lid ceiling              85.7   (back plate top 84.7)
+    Pi cage bottom            6.4
